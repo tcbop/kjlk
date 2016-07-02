@@ -1,0 +1,92 @@
+.package{
+	@include flexbox();
+	@include flex-direction(column);
+	height:100%;
+	width:100%;
+	.headers{
+		width:100%;
+		background:#EC3587;
+		img{
+			margin-left:.15rem;
+			width:.15rem;
+			}
+			line-height:.44rem;
+		span{
+			text-align:center;
+			font-size:.24rem;
+			color:#fff;
+			margin-left:30%;
+
+		}
+			
+			
+	}
+	.wrapper{
+		@include flex(1);
+		@include flexbox();
+		@include flex-direction(column);
+		width:100%;
+		.h44{
+			width:100%;
+			height:.44rem;
+		}
+		form{
+			width:100%;
+			background:#fff;
+			input{	
+				@include box-sizing(border-box);
+				padding-left:.9rem;
+				width:100%;
+				height:.7rem;
+				line-height:.7rem;
+				border:none;
+				border-bottom:1px solid #D7D7D7;
+			}
+			p{
+				@include box-sizing(border-box);
+				height:.2rem;
+				width:100%;
+				padding-left:.9rem;
+			}
+			div:nth-child(1) input{
+				background:url("/yidejia/images/account.png") no-repeat 30px center;
+			}
+			div:nth-child(2) input{
+				background:url("/yidejia/images/captcha.png") no-repeat 30px center;
+			}
+			div:nth-child(3) input{
+				background:url("/yidejia/images/password.png") no-repeat 30px center;
+			}
+			div:nth-child(4) input{
+				background:url("/yidejia/images/password.png") no-repeat 30px center;
+			}
+		}
+		.sub{
+			@include flex(1);
+			width:100%;
+			b{
+				font-style:normal;
+				color:#EC3587;
+			}
+			p{
+				img{
+					margin-left:10%;
+				}
+				span{
+					margin-left:15%;
+				}
+			}
+			input{
+				width:70%;
+				height:.68rem;
+				background:#EC3587;
+				color:#fff;
+				font-size:.24rem;
+				border:none;
+				margin-left:15%;
+				@include border-radius(.06rem);
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,25 @@
+<div class="package">
+	<div class="headers">
+	<img src="/yidejia/images/icon_back.png" action-type="goindex">
+		<span>账户登陆</span>
+	</div>
+	<div class="wrapper">
+		<div class="h35"></div>
+		<form action="" class="form1">
+			<input type="text" class="inp1" placeholder="账号"></br>
+			<input type="password" class="pwd1" placeholder="密码">
+		</form>
+		<div class="state">
+			<span>保持登录状态</span>
+			<span><img src="/yidejia/images/state.png"></span>
+		</div>
+		<div class="h45"></div>
+		<div class="form2">
+			<p><span>找回密码</span><img src="/yidejia/images/icon_arrow_right.png" alt=""></p>
+			<p><span action-type="gotoregister">快速注册</span><img src="/yidejia/images/icon_arrow_right.png" alt=""></p>
+		</div>
+		<div class="btn">
+			<input type="button" value="立即登录">
+		</div>
+	</div>
+</div>

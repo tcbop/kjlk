@@ -1,0 +1,22 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/yidejia/images/01_r2_c1.png"
+    },
+    {
+      "imgsrc": "/yidejia/images/02_r2_c1.png"
+    },
+    {
+      "imgsrc": "/yidejia/images/03_r2_c1.png"
+    },
+    {
+      "imgsrc": "/yidejia/images/04_r2_c1.png"
+    },
+    {
+      "imgsrc": "/yidejia/images/05_r2_c1.png"
+    }
+  ]
+}

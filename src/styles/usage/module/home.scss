@@ -1,0 +1,272 @@
+.m-index{
+	@include flexbox();
+	@include flex-direction(column);
+	height:100%;
+	width:100%;
+	.box{
+		position: relative;
+		@include flexbox();
+		@include flex-direction(column);
+		.headers{
+					height:.44rem;
+					width:100%;
+					background-color:#D80161;
+					box-sizing:border-box;
+					input{
+						height:.28rem;
+						width:60%;
+						border:#fff solid 1px;
+						transform:translate(60%,.08rem);
+						@include border-radius(5px);
+						
+						background:#ccc url("/yidejia/images/abc_ic_search_api_mtrl_alpha.png") no-repeat 10px 5px;
+						background-size:24px;
+					}
+
+				}
+		      
+		.myhome{
+			 @include flex(1);
+			width:100%;
+			overflow:hidden;
+			width:100%;
+			height: 100%;
+			 .head {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .head img {
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .up {
+                transform: rotate(360deg) !important;
+                -webkit-transform: rotate(360deg) !important;
+            }
+            .foot {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .foot img {
+                display: inline-block;
+                /*transform: rotate(0deg);*/
+                /*-webkit-transform: rotate(0deg);*/
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .down {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
+			.content1{
+				width:100%;
+				.carousel{
+						width:100%;
+						img{
+							width:100%;
+							height:100%;
+						}
+					}
+					.nav{
+						width:100%;
+						ul{ 
+							@include box-sizing(border-box);
+							padding-top:.05rem;
+							width:100%;
+							@include flexbox();
+							li{
+
+								@include flex(1);
+								@include flexbox();
+								@include flex-direction(column);
+								@include justify-content(center);
+								@include align-items(center);
+								i{
+									@include justify-content(center);
+									@include align-items(center);
+									img{
+										width:.30rem;
+									}
+									font-style:normal;
+								}
+								b{
+									@include box-sizing(border-box);
+									padding-top:.03rem;
+									@include justify-content(center);
+									
+									font-style:normal;
+									font-size:.12rem;
+								}
+							}
+						}
+						ul:nth-child(2){
+							@include border(0 0 1px 0, #ccc,solid);
+							@include box-sizing(border-box);
+							padding-bottom:.03rem;
+						}
+
+					}
+					.content{
+						margin-top:.05rem;
+						width:100%;
+						.sell-out{
+							@include flexbox();
+							@include border(1px, #ccc,solid);
+							li{
+								@include flex(1);
+								img{
+									width:100%;
+								}
+							}
+						}
+						.beauty{
+							margin-top:5px;
+							h3{
+								width:100%;
+								@include flexbox();
+								height:.30rem;
+								line-height:.3rem;
+								@include border(1px 0 0 0, #ccc,solid);
+								font-size:.12rem;
+								span{
+									@include flex(1);
+									font-weight:100;
+								}
+								span:nth-child(2){
+									text-align:right;
+									img{
+										@include box-sizing(border-box);
+										width:.12rem;
+										line-height:.3rem;
+										padding-left:.05rem;
+									}
+								}
+							}
+							ul{
+								width:100%;
+								@include flexbox();
+								@include border(1px, #ccc,solid);
+								li{
+									@include flex(1);
+									img{
+										width:100%;
+									}
+								}
+							}
+						}
+
+						.fashion{
+							margin-top:5px;
+							h3{
+								width:100%;
+								@include flexbox();
+								height:.30rem;
+								line-height:.3rem;
+								@include border(1px 0 0 0, #ccc,solid);
+								font-size:.12rem;
+								span{
+									font-weight:100;
+									@include flex(1);
+								}
+								span:nth-child(2){
+									text-align:right;
+									img{
+										@include box-sizing(border-box);
+										width:.12rem;
+										line-height:.3rem;
+										padding-left:.05rem;
+									}
+								}
+							}
+							ul{
+								width:100%;
+								@include flexbox();
+								@include border(1px, #ccc,solid);
+								li{
+									padding-left:.05rem;
+									@include box-sizing(border-box);
+								}
+								li:nth-child(1){
+									@include flex(2);
+									img{
+										width:100%;
+									}
+								}
+								
+								li:nth-child(2){
+									padding-right:.05rem;
+									@include box-sizing(border-box);
+									@include flex(1);
+									img{
+										width:100%;
+									}
+								}
+								
+							}
+							.ul-2{
+								width:100%;
+								@include flexbox();
+								@include border(1px, #ccc,solid);
+								li:nth-child(1){
+									@include flex(1);
+									padding-left:.05rem;
+									@include box-sizing(border-box);
+									img{
+										width:100%;
+									}
+								}
+								
+								li:nth-child(2){
+									@include flex(1);
+									padding-left:.05rem;
+									@include box-sizing(border-box);
+									img{
+										width:100%;
+									}
+								}
+								li:nth-child(3){
+									@include flex(1);
+									padding-left:.01rem;
+									padding-right:.05rem;
+									@include box-sizing(border-box);
+									img{
+										width:100%;
+									}
+								}
+							}
+						}
+						.at-around{
+							border-bottom:1px solid #ccc;
+							h3{
+								width:100%;
+								height:.66rem;
+								line-height:.66rem;
+								@include border(1px 0 0 0, #ccc,solid);
+								font-size:.24rem;
+							}
+							.at-around-logo{
+								@include box-sizing(border-box);
+								width:100%;
+								padding-left:.32rem;
+								padding-right:.32rem;
+								img{
+									width:100%;
+								}
+							}
+						}
+					}
+			}		
+		}
+		
+	}
+		
+}

@@ -1,0 +1,54 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data":{
+      "lunbo":[
+          {
+            "imgsrc": "/yidejia/images/01_r2_c1.png"
+          },
+          {
+            "imgsrc": "/yidejia/images/02_r2_c1.png"
+          },
+          {
+            "imgsrc": "/yidejia/images/03_r2_c1.png"
+          },
+          {
+            "imgsrc": "/yidejia/images/04_r2_c1.png"
+          },
+          {
+            "imgsrc": "/yidejia/images/05_r2_c1.png"
+          }
+      ],
+       "sout":[
+          {
+            "imgsrc1": "/yidejia/images/fini1.png",
+            "imgsrc2": "/yidejia/images/fin2.png",
+            "imgsrc3": "/yidejia/images/fin3.png"
+          }
+      ],
+      "beut":[
+          {
+            "imgsrc1": "/yidejia/images/icon_arrow_right.png",
+            "imgsrc2": "/yidejia/images/fini1.png",
+            "imgsrc3": "/yidejia/images/fin2.png",
+            "imgsrc4": "/yidejia/images/fin3.png"
+          }
+      ],
+      "fash":[
+          {
+            "imgsrc1": "/yidejia/images/icon_arrow_right.png",
+            "imgsrc2": "/yidejia/images/fashion1.png",
+			"imgsrc3": "/yidejia/images/fashion2.png",
+			"imgsrc4": "/yidejia/images/fashion3.png",
+			"imgsrc5": "/yidejia/images/fashion4.png",
+			"imgsrc6": "/yidejia/images/fashion5.png"
+          }
+      ],
+      "atd":[
+          {
+            "imgsrc": "/yidejia/images/at-around1.png"
+          }
+      ]
+  }
+}
